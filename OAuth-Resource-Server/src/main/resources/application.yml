@@ -1,0 +1,9 @@
+server:
+  port: 8181
+security:
+  oauth2:
+    client:
+      clientId: spring
+      clientSecret: spring_secret
+    resource:
+      token-info-uri: http://localhost:8180/oauth/check_token
